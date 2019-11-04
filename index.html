@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/Users/gustavogarcia/Documents/GitHub/unit-4-game/assets/css/reset.css">
+    <link rel="stylesheet" href="/Users/gustavogarcia/Documents/GitHub/unit-4-game/assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="gameHeader">
+        <h1>Gem Collector</h1>
+    </div>
+    <br>
+    <div class="rules">
+        <p>You will be given a random number at the start of the game.
+
+            There are four gems below. By clicking on a gem you will add a specific amount of points to your
+            total score.
+
+            You win the game by matching your total score to random number, you lose the game if your total score goes
+            above the random number.
+
+            The value of each gems is hidden from you until your click on it.
+
+            Each time when the game starts. The game will change the values of each gem.
+
+        </p>
+    </div>
+    <div class="numberToMatch">
+        <h2>Number To Get:
+            <span id="randomNumber"></span>
+        </h2>
+    </div>
+    <div class="winsAndLosses">
+        <h2>Wins:
+            <span id="numberWins"></span>
+            </br>
+            Losses:
+            <span id="numberLosses"></span>
+        </h2>
+    </div>
+    <div class="gems">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDB1bvep6Q28bUzTSHxyMGJ_sEJFDKL3CSRqYgHiX0PVFdzmNIQ&s"
+            class=gemImage id="one" alt="Emerald">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi2zR-JLOV4mocCt-6og3n6_1Cya8DIAmcRjBJ_dPJ5xw5pMX6&s "
+            class=gemImage id="two" alt="Clinohumite">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaNpf-m3Lw0FCbSRGQevEq-buPD5QJEQfR_oqjzj38NZyGW8vM&s"
+            class=gemImage id="three" alt="Amethyst">
+        <img src="https://lh3.googleusercontent.com/JvHwYJgfcnaQ7I5BjyytbbG6ZTixiuXa4UXGRKo0buI7JDPqtiNHBh132L_dXIFAgOEo=s124"
+            class=gemImage id="four" alt="Citrine">
+    </div>
+    <div class="userTotal">
+        <h2>Your total score is:
+            <span id="finalTotal"></span>
+        </h2>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="/Users/gustavogarcia/Documents/GitHub/unit-4-game/assets/javascript/game.js">
+    </script>
+</body>
+
+</html>
